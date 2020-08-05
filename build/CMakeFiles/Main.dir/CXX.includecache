@@ -36,6 +36,16 @@ SelfTest.h
 windows.h
 /home/wei/code/StateMachine/windows.h
 
+/home/wei/code/StateMachine/Door.cpp
+Door.hpp
+/home/wei/code/StateMachine/Door.hpp
+iostream
+-
+
+/home/wei/code/StateMachine/Door.hpp
+StateMachine.h
+/home/wei/code/StateMachine/StateMachine.h
+
 /home/wei/code/StateMachine/Fault.cpp
 Fault.h
 /home/wei/code/StateMachine/Fault.h
@@ -59,6 +69,8 @@ Player.h
 /home/wei/code/StateMachine/Player.h
 CentrifugeTest.h
 /home/wei/code/StateMachine/CentrifugeTest.h
+Door.hpp
+/home/wei/code/StateMachine/Door.hpp
 iostream
 -
 

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Main.dir/Allocator.cpp.o"
   "CMakeFiles/Main.dir/CentrifugeTest.cpp.o"
+  "CMakeFiles/Main.dir/Door.cpp.o"
   "CMakeFiles/Main.dir/Fault.cpp.o"
   "CMakeFiles/Main.dir/Main.cpp.o"
   "CMakeFiles/Main.dir/Motor.cpp.o"

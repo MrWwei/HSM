@@ -13,6 +13,12 @@ CMakeFiles/Main.dir/CentrifugeTest.cpp.o
  /home/wei/code/StateMachine/Fault.h
  /home/wei/code/StateMachine/SelfTest.h
  /home/wei/code/StateMachine/StateMachine.h
+CMakeFiles/Main.dir/Door.cpp.o
+ /home/wei/code/StateMachine/DataTypes.h
+ /home/wei/code/StateMachine/Door.cpp
+ /home/wei/code/StateMachine/Door.hpp
+ /home/wei/code/StateMachine/Fault.h
+ /home/wei/code/StateMachine/StateMachine.h
 CMakeFiles/Main.dir/Fault.cpp.o
  /home/wei/code/StateMachine/DataTypes.h
  /home/wei/code/StateMachine/Fault.cpp
@@ -20,6 +26,7 @@ CMakeFiles/Main.dir/Fault.cpp.o
 CMakeFiles/Main.dir/Main.cpp.o
  /home/wei/code/StateMachine/CentrifugeTest.h
  /home/wei/code/StateMachine/DataTypes.h
+ /home/wei/code/StateMachine/Door.hpp
  /home/wei/code/StateMachine/Fault.h
  /home/wei/code/StateMachine/Main.cpp
  /home/wei/code/StateMachine/Motor.h

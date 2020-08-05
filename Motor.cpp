@@ -37,7 +37,7 @@ STATE_DEFINE(Motor, Idle, NoEventData)
 	cout << "Motor::ST_Idle" << endl;
 }
 
-// stop the motor 
+// stop the motor 状态函数
 STATE_DEFINE(Motor, Stop, NoEventData)
 {
 	cout << "Motor::ST_Stop" << endl;

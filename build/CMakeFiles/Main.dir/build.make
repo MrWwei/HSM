@@ -105,9 +105,33 @@ CMakeFiles/Main.dir/CentrifugeTest.cpp.o.provides: CMakeFiles/Main.dir/Centrifug
 CMakeFiles/Main.dir/CentrifugeTest.cpp.o.provides.build: CMakeFiles/Main.dir/CentrifugeTest.cpp.o
 
 
+CMakeFiles/Main.dir/Door.cpp.o: CMakeFiles/Main.dir/flags.make
+CMakeFiles/Main.dir/Door.cpp.o: ../Door.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Main.dir/Door.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/Door.cpp.o -c /home/wei/code/StateMachine/Door.cpp
+
+CMakeFiles/Main.dir/Door.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/Door.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wei/code/StateMachine/Door.cpp > CMakeFiles/Main.dir/Door.cpp.i
+
+CMakeFiles/Main.dir/Door.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/Door.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wei/code/StateMachine/Door.cpp -o CMakeFiles/Main.dir/Door.cpp.s
+
+CMakeFiles/Main.dir/Door.cpp.o.requires:
+
+.PHONY : CMakeFiles/Main.dir/Door.cpp.o.requires
+
+CMakeFiles/Main.dir/Door.cpp.o.provides: CMakeFiles/Main.dir/Door.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Door.cpp.o.provides.build
+.PHONY : CMakeFiles/Main.dir/Door.cpp.o.provides
+
+CMakeFiles/Main.dir/Door.cpp.o.provides.build: CMakeFiles/Main.dir/Door.cpp.o
+
+
 CMakeFiles/Main.dir/Fault.cpp.o: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/Fault.cpp.o: ../Fault.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Main.dir/Fault.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Main.dir/Fault.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/Fault.cpp.o -c /home/wei/code/StateMachine/Fault.cpp
 
 CMakeFiles/Main.dir/Fault.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/Main.dir/Fault.cpp.o.provides.build: CMakeFiles/Main.dir/Fault.cpp.o
 
 CMakeFiles/Main.dir/Main.cpp.o: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/Main.cpp.o: ../Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Main.dir/Main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Main.dir/Main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/Main.cpp.o -c /home/wei/code/StateMachine/Main.cpp
 
 CMakeFiles/Main.dir/Main.cpp.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/Main.dir/Main.cpp.o.provides.build: CMakeFiles/Main.dir/Main.cpp.o
 
 CMakeFiles/Main.dir/Motor.cpp.o: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/Motor.cpp.o: ../Motor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Main.dir/Motor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Main.dir/Motor.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/Motor.cpp.o -c /home/wei/code/StateMachine/Motor.cpp
 
 CMakeFiles/Main.dir/Motor.cpp.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/Main.dir/Motor.cpp.o.provides.build: CMakeFiles/Main.dir/Motor.cpp.o
 
 CMakeFiles/Main.dir/MotorNM.cpp.o: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/MotorNM.cpp.o: ../MotorNM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Main.dir/MotorNM.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Main.dir/MotorNM.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/MotorNM.cpp.o -c /home/wei/code/StateMachine/MotorNM.cpp
 
 CMakeFiles/Main.dir/MotorNM.cpp.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/Main.dir/MotorNM.cpp.o.provides.build: CMakeFiles/Main.dir/MotorNM.cp
 
 CMakeFiles/Main.dir/Player.cpp.o: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/Player.cpp.o: ../Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Main.dir/Player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Main.dir/Player.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/Player.cpp.o -c /home/wei/code/StateMachine/Player.cpp
 
 CMakeFiles/Main.dir/Player.cpp.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/Main.dir/Player.cpp.o.provides.build: CMakeFiles/Main.dir/Player.cpp.
 
 CMakeFiles/Main.dir/SelfTest.cpp.o: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/SelfTest.cpp.o: ../SelfTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Main.dir/SelfTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Main.dir/SelfTest.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/SelfTest.cpp.o -c /home/wei/code/StateMachine/SelfTest.cpp
 
 CMakeFiles/Main.dir/SelfTest.cpp.i: cmake_force
@@ -251,7 +275,7 @@ CMakeFiles/Main.dir/SelfTest.cpp.o.provides.build: CMakeFiles/Main.dir/SelfTest.
 
 CMakeFiles/Main.dir/StateMachine.cpp.o: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/StateMachine.cpp.o: ../StateMachine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Main.dir/StateMachine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Main.dir/StateMachine.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/StateMachine.cpp.o -c /home/wei/code/StateMachine/StateMachine.cpp
 
 CMakeFiles/Main.dir/StateMachine.cpp.i: cmake_force
@@ -275,7 +299,7 @@ CMakeFiles/Main.dir/StateMachine.cpp.o.provides.build: CMakeFiles/Main.dir/State
 
 CMakeFiles/Main.dir/stdafx.cpp.o: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/stdafx.cpp.o: ../stdafx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Main.dir/stdafx.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Main.dir/stdafx.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/stdafx.cpp.o -c /home/wei/code/StateMachine/stdafx.cpp
 
 CMakeFiles/Main.dir/stdafx.cpp.i: cmake_force
@@ -299,7 +323,7 @@ CMakeFiles/Main.dir/stdafx.cpp.o.provides.build: CMakeFiles/Main.dir/stdafx.cpp.
 
 CMakeFiles/Main.dir/xallocator.cpp.o: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/xallocator.cpp.o: ../xallocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Main.dir/xallocator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Main.dir/xallocator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/xallocator.cpp.o -c /home/wei/code/StateMachine/xallocator.cpp
 
 CMakeFiles/Main.dir/xallocator.cpp.i: cmake_force
@@ -325,6 +349,7 @@ CMakeFiles/Main.dir/xallocator.cpp.o.provides.build: CMakeFiles/Main.dir/xalloca
 Main_OBJECTS = \
 "CMakeFiles/Main.dir/Allocator.cpp.o" \
 "CMakeFiles/Main.dir/CentrifugeTest.cpp.o" \
+"CMakeFiles/Main.dir/Door.cpp.o" \
 "CMakeFiles/Main.dir/Fault.cpp.o" \
 "CMakeFiles/Main.dir/Main.cpp.o" \
 "CMakeFiles/Main.dir/Motor.cpp.o" \
@@ -340,6 +365,7 @@ Main_EXTERNAL_OBJECTS =
 
 Main: CMakeFiles/Main.dir/Allocator.cpp.o
 Main: CMakeFiles/Main.dir/CentrifugeTest.cpp.o
+Main: CMakeFiles/Main.dir/Door.cpp.o
 Main: CMakeFiles/Main.dir/Fault.cpp.o
 Main: CMakeFiles/Main.dir/Main.cpp.o
 Main: CMakeFiles/Main.dir/Motor.cpp.o
@@ -351,7 +377,7 @@ Main: CMakeFiles/Main.dir/stdafx.cpp.o
 Main: CMakeFiles/Main.dir/xallocator.cpp.o
 Main: CMakeFiles/Main.dir/build.make
 Main: CMakeFiles/Main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wei/code/StateMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -361,6 +387,7 @@ CMakeFiles/Main.dir/build: Main
 
 CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/Allocator.cpp.o.requires
 CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/CentrifugeTest.cpp.o.requires
+CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/Door.cpp.o.requires
 CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/Fault.cpp.o.requires
 CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/Main.cpp.o.requires
 CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/Motor.cpp.o.requires

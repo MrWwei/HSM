@@ -13,12 +13,19 @@ CMakeFiles/Main.dir/CentrifugeTest.cpp.o: ../Fault.h
 CMakeFiles/Main.dir/CentrifugeTest.cpp.o: ../SelfTest.h
 CMakeFiles/Main.dir/CentrifugeTest.cpp.o: ../StateMachine.h
 
+CMakeFiles/Main.dir/Door.cpp.o: ../DataTypes.h
+CMakeFiles/Main.dir/Door.cpp.o: ../Door.cpp
+CMakeFiles/Main.dir/Door.cpp.o: ../Door.hpp
+CMakeFiles/Main.dir/Door.cpp.o: ../Fault.h
+CMakeFiles/Main.dir/Door.cpp.o: ../StateMachine.h
+
 CMakeFiles/Main.dir/Fault.cpp.o: ../DataTypes.h
 CMakeFiles/Main.dir/Fault.cpp.o: ../Fault.cpp
 CMakeFiles/Main.dir/Fault.cpp.o: ../Fault.h
 
 CMakeFiles/Main.dir/Main.cpp.o: ../CentrifugeTest.h
 CMakeFiles/Main.dir/Main.cpp.o: ../DataTypes.h
+CMakeFiles/Main.dir/Main.cpp.o: ../Door.hpp
 CMakeFiles/Main.dir/Main.cpp.o: ../Fault.h
 CMakeFiles/Main.dir/Main.cpp.o: ../Main.cpp
 CMakeFiles/Main.dir/Main.cpp.o: ../Motor.h

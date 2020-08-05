@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wei/code/StateMachine/Allocator.cpp" "/home/wei/code/StateMachine/build/CMakeFiles/Main.dir/Allocator.cpp.o"
   "/home/wei/code/StateMachine/CentrifugeTest.cpp" "/home/wei/code/StateMachine/build/CMakeFiles/Main.dir/CentrifugeTest.cpp.o"
+  "/home/wei/code/StateMachine/Door.cpp" "/home/wei/code/StateMachine/build/CMakeFiles/Main.dir/Door.cpp.o"
   "/home/wei/code/StateMachine/Fault.cpp" "/home/wei/code/StateMachine/build/CMakeFiles/Main.dir/Fault.cpp.o"
   "/home/wei/code/StateMachine/Main.cpp" "/home/wei/code/StateMachine/build/CMakeFiles/Main.dir/Main.cpp.o"
   "/home/wei/code/StateMachine/Motor.cpp" "/home/wei/code/StateMachine/build/CMakeFiles/Main.dir/Motor.cpp.o"

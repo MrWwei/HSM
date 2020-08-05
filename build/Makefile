@@ -177,6 +177,33 @@ CentrifugeTest.cpp.s:
 	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/CentrifugeTest.cpp.s
 .PHONY : CentrifugeTest.cpp.s
 
+Door.o: Door.cpp.o
+
+.PHONY : Door.o
+
+# target to build an object file
+Door.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Door.cpp.o
+.PHONY : Door.cpp.o
+
+Door.i: Door.cpp.i
+
+.PHONY : Door.i
+
+# target to preprocess a source file
+Door.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Door.cpp.i
+.PHONY : Door.cpp.i
+
+Door.s: Door.cpp.s
+
+.PHONY : Door.s
+
+# target to generate assembly for a file
+Door.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Door.cpp.s
+.PHONY : Door.cpp.s
+
 Fault.o: Fault.cpp.o
 
 .PHONY : Fault.o
@@ -435,6 +462,9 @@ help:
 	@echo "... CentrifugeTest.o"
 	@echo "... CentrifugeTest.i"
 	@echo "... CentrifugeTest.s"
+	@echo "... Door.o"
+	@echo "... Door.i"
+	@echo "... Door.s"
 	@echo "... Fault.o"
 	@echo "... Fault.i"
 	@echo "... Fault.s"

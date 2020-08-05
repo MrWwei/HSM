@@ -52,6 +52,7 @@ STATE_DEFINE(CentrifugeTest, Idle, NoEventData)
 STATE_DEFINE(CentrifugeTest, StartTest, NoEventData)
 {
 	cout << "CentrifugeTest::ST_StartTest" << endl;
+	// 设置回调函数
 	InternalEvent(ST_ACCELERATION);
 }
 

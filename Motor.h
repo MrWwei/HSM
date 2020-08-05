@@ -13,7 +13,7 @@ class Motor : public StateMachine
 {
 public:
 	Motor();
-
+    // 外部事件
 	// External events taken by this state machine
 	void SetSpeed(MotorData* data);
 	void Halt();
@@ -23,6 +23,7 @@ private:
 
 	// State enumeration order must match the order of state method entries
 	// in the state map.
+	// 状态
 	enum States
 	{
 		ST_IDLE,
@@ -31,7 +32,7 @@ private:
 		ST_CHANGE_SPEED,
 		ST_MAX_STATES
 	};
-
+    // 声明状态函数
 	// Define the state machine state functions with event data type
 	STATE_DECLARE(Motor, 	Idle,			NoEventData)
 	STATE_DECLARE(Motor, 	Stop,			NoEventData)

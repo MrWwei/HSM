@@ -10,7 +10,7 @@ class CentrifugeTest : public SelfTest
 {
 public:
 	CentrifugeTest();
-
+    // 外部事件函数
 	virtual void Start();
 	void Poll();
 

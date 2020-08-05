@@ -3,12 +3,14 @@
 #include "Motor.h"
 #include "Player.h"
 #include "CentrifugeTest.h"
+#include "Door.hpp"
 #include <iostream>
 
 using namespace std;
 
 int main(void)
 {
+	/*
 	// Create MotorNM (No Macro) test object
 	MotorNM motorNM;
 
@@ -56,11 +58,11 @@ int main(void)
 	motorNM.Halt();
 
 	// Create Motor object with macro support
-	Motor motor;
+	// Motor motor;
 
-	MotorData* data = new MotorData();
-	data->speed = 100;
-	motor.SetSpeed(data);
+	// MotorData* data = new MotorData();
+	// data->speed = 100;
+	// motor.SetSpeed(data);
 
 	MotorData* data2 = new MotorData();
 	data2->speed = 200;
@@ -81,14 +83,29 @@ int main(void)
 	player.Play();
 	player.Play();
 	player.OpenClose();
-
+*/
 	// Create CentrifugeTest and start test
-	CentrifugeTest test;
-	test.Cancel();
-	test.Start();
-	while (test.IsPollActive())
-		test.Poll();
-
+	// CentrifugeTest test;
+	//调用基类
+	// test.Cancel();
+	//调用派生类，Map方法，入口
+	// test.Start();
+	// while (test.IsPollActive())
+	//     //Map方法
+	// 	test.Poll();
+    Door door;
+	
+	door.ex_Close();
+	door.ex_Lock();
+    door.ex_Unlock();
+	door.ex_Open();
+	// door.ex_Close();
+	// door.ex_Lock();
+	// door.ex_Unlock();
+	// Motor motor;
+	// MotorData* data = new MotorData();
+	// data->speed = 100;
+	// motor.SetSpeed(data);
 	return 0;
 }
 
